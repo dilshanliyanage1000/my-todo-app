@@ -1,0 +1,157 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+a {
+  color: #ff7300;
+}
+
+a:hover {
+  color: #ff7300 !important;
+  text-decoration: none;
+}
+
+.main {
+  width: 100vw;
+}
+
+.f-width {
+  width: 100vw;
+}
+
+.white {
+  background-color: white;
+}
+
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 60px;
+  display: inline-block;
+}
+
+.clogo {
+  width: 150px;
+}
+
+.nave a {
+  padding: 8px;
+  text-decoration: none;
+}
+
+.btn-cnt {
+  color: black;
+}
+
+.blogos {
+  float: right;
+  margin-right: 50px;
+}
+
+.s-logos {
+  width: 20px;
+}
+
+.nav_logo {
+  width: 150px;
+}
+
+.navm {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
+.pad-lr {
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+
+@media only screen and (max-width: 1126px) {
+
+  .pad-lr {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+
+  .bottom-col .ml-5 {
+    margin-left: 0 !important;
+  }
+
+  .bottom-col .clogo {
+    margin: auto;
+    display: block;
+  }
+
+  .blogos {
+    float: none;
+    margin: 0px;
+  }
+
+  .blogos a {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .pad-lr {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .nav_logo {
+    width: 100px;
+  }
+
+  .btn-cnt {
+    font-size: 15px;
+  }
+
+  .navm {
+    margin: 20px;
+  }
+
+  .nave a {
+    padding: 0px;
+    padding-right: 5px;
+  }
+
+  .main_cont h3 {
+    font-size: 20px;
+  }
+
+  .navm {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .pad-lr {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .main_cont p {
+    font-size: 12px;
+  }
+
+  .navm {
+    margin: 0px;
+  }
+}
